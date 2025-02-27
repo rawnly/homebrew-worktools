@@ -1,9 +1,9 @@
 class WorktreeManager < Formula
   desc 'CLI to manage worktrees'
   homepage 'https://github.com/rawnly/worktree-manager'
-  url 'https://github.com/rawnly/worktree-manager/releases/download/0.2.0/worktree-manager.tar.gz'
-  sha256 'beea4f226e569435a1c4960967a20412a0ee096604b3b70832e71c84f424b1a3'
-  version '0.2.0'
+  url 'https://github.com/rawnly/worktree-manager/releases/download/0.2.2/worktree-manager.tar.gz'
+  sha256 '4217e815920702b75e2a15fbface9545f0383688a1a59fa749186e171721b284'
+  version '0.2.2'
 
   def install
     bin.install 'worktree-manager'
