@@ -1,11 +1,11 @@
 class Tpaws < Formula
-  desc 'CLI to manage TargetProcess and AWS CodeCommit'
-  homepage 'https://github.com/rawnly/tpaws'
-  url 'https://github.com/rawnly/tpaws/releases/download/0.0.2/tpaws.tar.gz'
-  sha256 '061a029e6c6845de477fa756ffbcd9d6dcc60796dd0bb10bb3c5bcb58ab637c4'
-  version '0.0.2'
+  desc "CLI to manage TargetProcess and AWS CodeCommit"
+  homepage "https://github.com/rawnly/tpaws"
+  url "https://github.com/rawnly/tpaws/releases/download/0.0.4/tpaws.tar.gz"
+  sha256 "fba7f6927eb26f98a0b113ea15667fa2fb6a19abea4f364a8f22ca04b06f0539"
+  version "0.0.4"
 
-  def install
+  def install 
     bin.install 'tpaws'
   end
 end
